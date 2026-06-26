@@ -15,10 +15,10 @@ class MahasiswaPrestasi extends Mahasiswa
         $this->minimal_ipk_syarat = $minimal_ipk_syarat;
     }
 
-    public function hitungTagihanSemester()
-    {
-
-    }
+  public function hitungTagihanSemester()
+{
+    return $this->tarif_ukt_nominal * 0.25;
+}
 
     public function tampilkanSpesifikasiAkademik()
     {

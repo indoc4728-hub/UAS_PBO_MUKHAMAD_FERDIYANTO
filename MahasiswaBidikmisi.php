@@ -16,9 +16,9 @@ class MahasiswaBidikmisi extends Mahasiswa
     }
 
     public function hitungTagihanSemester()
-    {
-
-    }
+{
+    return 0;
+}
 
     public function tampilkanSpesifikasiAkademik()
     {
