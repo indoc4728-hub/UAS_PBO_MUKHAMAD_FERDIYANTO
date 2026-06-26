@@ -20,10 +20,11 @@ class MahasiswaBidikmisi extends Mahasiswa
     return 0;
 }
 
-    public function tampilkanSpesifikasiAkademik()
-    {
-
-    }
+   public function tampilkanSpesifikasiAkademik()
+{
+    return "Nomor KIP Kuliah : " . $this->nomor_kip_kuliah .
+           "<br>Dana Saku Subsidi : Rp " . number_format($this->dana_saku_subsidi, 0, ',', '.');
+}
 }
 
 ?>

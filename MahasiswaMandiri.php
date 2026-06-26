@@ -16,13 +16,14 @@ class MahasiswaMandiri extends Mahasiswa
     }
 
     public function hitungTagihanSemester()
-{
-    return $this->tarif_ukt_nominal + 100000;
-}
+    {
+        return $this->tarif_ukt_nominal + 100000;
+    }
 
     public function tampilkanSpesifikasiAkademik()
     {
-
+        return "Golongan UKT : " . $this->golongan_ukt .
+               "<br>Nama Wali : " . $this->nama_wali;
     }
 }
 

@@ -19,6 +19,32 @@ abstract class Mahasiswa
         $this->tarif_ukt_nominal = $tarif_ukt_nominal;
     }
 
+    // Getter
+    public function getIdMahasiswa()
+    {
+        return $this->id_mahasiswa;
+    }
+
+    public function getNamaMahasiswa()
+    {
+        return $this->nama_mahasiswa;
+    }
+
+    public function getNim()
+    {
+        return $this->nim;
+    }
+
+    public function getSemester()
+    {
+        return $this->semester;
+    }
+
+    public function getTarifUktNominal()
+    {
+        return $this->tarif_ukt_nominal;
+    }
+
     // Abstract method tanpa body
     abstract public function hitungTagihanSemester();
 
